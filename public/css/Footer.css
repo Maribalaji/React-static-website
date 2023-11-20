@@ -1,0 +1,97 @@
+
+#footer-section{
+    background-color: black;
+    /* padding: 10px; */
+    margin-top: 20px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0px;
+    
+
+}
+.footer-col{
+    /* width:20%; */
+    color: white;
+    padding: 10px 0px;
+}
+.footer-col h3,h1{
+    padding:20px 0px;
+}
+.footer-col li{
+    list-style: none;
+    color: rgb(190, 192, 192);
+    padding: 10px ;
+    font-size: 17px;
+    
+}
+.footer-col li i{
+    color: green;
+    font-weight: 600;
+}
+.foot-phn{
+    padding: 20px 0px;
+}
+.foot-phn p{
+    padding: 10px 0;
+}
+.footer-col p{
+    color: rgb(190, 192, 192);
+    
+}
+.footer-text{
+    padding: 15px 0px;
+    position: relative;
+
+}
+.footer-txt{
+    width: 100%;
+    padding: 10px 12px;
+  
+
+}
+.footer-textbox{
+    padding: 10px 12px;
+    position: absolute;
+    top:22%;
+    right: 0;
+    border: none;
+    background-color: rgb(6, 190, 6);
+    color: white;
+    font-size: 17px;
+}
+
+.foot-end{
+    color: white;
+    
+}
+.end-row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+.end-col{
+    /* width: 70%; */
+    padding: 10px 20px ;
+
+}
+/* .end-col1{
+    /* width:30%; */
+/* } */ 
+.end-cont{
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: inline-flex;
+    background-color: rgb(46, 45, 45);
+    margin: 0px 5px;
+    border: 1px solid  rgb(46, 45, 45);
+}
+.end-cont:hover{
+    background-color: rgb(7, 214, 7);
+}
+.end-color{
+    color: rgb(7, 214, 7);
+}

@@ -1,0 +1,30 @@
+.client-name{
+    text-align: center;
+    padding:20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 34px;
+
+}
+
+.client-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.client-col{
+    /* width:22%; */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 1px rgb(158, 157, 157);
+    margin: 3px;
+}
+.client-col img{
+    width: 65%;
+    padding: 10px;
+    filter: grayscale(100%);
+}
+.client-col img:hover{
+    filter: none;
+     transform: scale(1.2);
+}
